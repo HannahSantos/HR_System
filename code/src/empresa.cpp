@@ -114,11 +114,11 @@ void Empresa::chamarFuncao(const std::string& linha) {
         else if (funcao == "calculaTodosOsSalarios") {
             calculaTodosOsSalarios();
         } 
-        else if (funcao == "calcularRecisao") {
+        else if (funcao == "calcularRescisao") {
             std::string matricula;
             Data desligamento;
             if (iss >> matricula >> desligamento.ano >> desligamento.mes >> desligamento.dia) {
-                calcularRecisao(matricula, desligamento);
+                calcularRescisao(matricula, desligamento);
             }
         } 
         else {
