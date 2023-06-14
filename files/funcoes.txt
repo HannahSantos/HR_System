@@ -12,7 +12,7 @@ matricula
 calculaSalarioFuncionario()
 matricula
 calculaTodoOsSalarios()
-calcularRecisao()
+calcularRescisao()
 mstricula
 ano
 mes
